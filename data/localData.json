@@ -1,0 +1,149 @@
+{
+    "users": [
+        {
+            "id": "1718115410550",
+            "username": "testuser",
+            "password": "password123",
+            "chats": [
+                {
+                    "id": "1719553549982519",
+                    "userId": "1718184321130",
+                    "username": "testuser2"
+                },
+                {
+                    "id": "1721673273137320",
+                    "userId": "1721673262058376",
+                    "username": "testuser3"
+                }
+            ]
+        },
+        {
+            "id": "1718184321130",
+            "username": "testuser2",
+            "password": "pass12",
+            "chats": [
+                {
+                    "id": "1719553549982519",
+                    "userId": "1718115410550",
+                    "username": "testuser"
+                },
+                {
+                    "id": "1721673279674104",
+                    "userId": "1721673262058376",
+                    "username": "testuser3"
+                }
+            ]
+        },
+        {
+            "id": "1721673262058376",
+            "username": "testuser3",
+            "password": "pass1234",
+            "chats": [
+                {
+                    "id": "1721673273137320",
+                    "userId": "1718115410550",
+                    "username": "testuser"
+                },
+                {
+                    "id": "1721673279674104",
+                    "userId": "1718184321130",
+                    "username": "testuser2"
+                }
+            ]
+        }
+    ],
+    "chats": [
+        {
+            "id": "1719553549982519",
+            "messages": [
+                {
+                    "content": "Hello",
+                    "senderId": "1718115410550",
+                    "recipientId": "1718184321130",
+                    "timestamp": "2024-06-29T04:04:16.320Z"
+                },
+                {
+                    "content": "Hello",
+                    "senderId": "1718115410550",
+                    "recipientId": "1718184321130",
+                    "timestamp": "2024-06-29T04:05:13.343Z"
+                }
+            ]
+        },
+        {
+            "id": "1721673273137320",
+            "messages": []
+        },
+        {
+            "id": "1721673279674104",
+            "messages": []
+        }
+    ],
+    "Product": [
+        {
+            "id": "1719198034257112",
+            "content": "Helmo all!!",
+            "username": "testuser2",
+            "likes": 0,
+            "likedBy": []
+        },
+        {
+            "id": "1719198628956667",
+            "content": "Hi all!!!",
+            "username": "testuser",
+            "likes": 1,
+            "likedBy": ["testuser"]
+        },
+        {
+            "id": "1719198658668221",
+            "content": "Hii",
+            "username": "testuser2",
+            "likes": 0,
+            "likedBy": []
+        },
+        {
+            "id": "1721587747753861",
+            "content": "creating a test post",
+            "username": "testuser",
+            "likes": 0,
+            "likedBy": []
+        }
+    ],
+    "events": [
+        {
+            "id": "1",
+            "title": "Community Meetup",
+            "description": "A meetup for all community members to discuss the upcoming events.",
+            "date": "2024-07-01",
+            "time": "18:00",
+            "location": "Community Hall",
+            "username": "testuser"
+        }
+    ],
+    "activities": [
+        {
+            "id": "1",
+            "title": "Morning Routine",
+            "steps": ["Brush teeth", "Take a shower", "Have breakfast"],
+            "username": "testuser"
+        },
+        {
+            "id": "1720341930057871",
+            "title": "test activity",
+            "description": "test desc",
+            "steps": ["test 1", "test 2", "test 3"],
+            "username": "testuser"
+        },
+        {
+            "id": "1720348942672689",
+            "title": "test event 2",
+            "steps": [
+                "do something ",
+                "then do something else",
+                "after that do something else",
+                "then continue"
+            ],
+            "username": "testuser"
+        }
+    ]
+}
